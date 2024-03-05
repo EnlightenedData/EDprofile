@@ -1,11 +1,11 @@
-name: "MyLabJournal"
+name: "EnlightenedData"
 navbar:
-  title: "MyLabJournal"
+  title: "EnlightenedData"
   left:
     - text: "Home"
       href: index.html
-    - text: "Journal"
-      href: Journal.html
+    - text: "Projects"
+      href: Project.html
     - text: "Links"
       href: Links.html
 output_dir: "docs"
