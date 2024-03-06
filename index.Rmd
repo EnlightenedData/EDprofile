@@ -17,7 +17,7 @@ output: html_document
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
-# Who We Are
+# About us
 
 Welcome to **Enlightened Data**, your friendly SME data partner right here in Sydney! Our journey began in 2018, guided by the visionary Dr. Chinh Ho, whose expertise in the transport and logistics field is nothing short of remarkable. Here at **Enlightened Data**, we're all about turning numbers into narratives. Whether you're steering a business or shaping government decisions, our data visualization and analytics services are designed to illuminate the path ahead.
 
