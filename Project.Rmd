@@ -29,6 +29,10 @@ While Sydneysiders were in lockdowns, Enlightened Data embarked on a critical mi
 ![](images/covid19_lga.jpg)
 </div>
 
+<video controls>
+  <source src="videos/active_cases_LGA.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 

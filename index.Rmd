@@ -29,7 +29,7 @@ Let's embark on this data-driven journey together, unlocking actionable insights
 
 
 </div>
-<div class="col-sm-6">
+<div class="col-sm-4">
 
 ### [Illuminating Insights](https://github.com/EnlightenedData/)
 
