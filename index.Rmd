@@ -41,7 +41,7 @@ Let's embark on this data-driven journey together, unlocking actionable insights
 </div>
 <div class="col-sm-6">
 
-### [Illuminating Insights](https://enlighteneddata.github.io)
+### [Illuminating Insights](https://github.com/EnlightenedData/)
 
 <a href = "https://enlighteneddata.github.io">
 ![](images/logo.jpg)
