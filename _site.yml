@@ -1,8 +1,9 @@
 name: "EnlightenedData"
 navbar:
-  title: "EnlightenedData"
+  title: "Enlightened Data"
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "Project"
       href: Project.html

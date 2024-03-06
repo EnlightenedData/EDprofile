@@ -1,5 +1,5 @@
 ---
-title: "EnlightenedData"
+title: "Enlightened Data"
 output: html_document
 ---
 
@@ -17,25 +17,15 @@ output: html_document
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
-# **Who We Are**
+# Who We Are
 
-Welcome to *Enlightened Data*, your friendly SME data partner right here in Sydney! Our journey began in 2018, guided by the visionary Dr. Chinh Ho, whose expertise in the transport and logistics field is nothing short of remarkable. Here at *Enlightened Data*, we're all about turning numbers into narratives. Whether you're steering a business or shaping government decisions, our data visualization and analytics services are designed to illuminate the path ahead.
+Welcome to **Enlightened Data**, your friendly SME data partner right here in Sydney! Our journey began in 2018, guided by the visionary Dr. Chinh Ho, whose expertise in the transport and logistics field is nothing short of remarkable. Here at **Enlightened Data**, we're all about turning numbers into narratives. Whether you're steering a business or shaping government decisions, our data visualization and analytics services are designed to illuminate the path ahead.
 
 Our passion? Helping you connect with your customers on a deeper level and crafting strategies that truly leverage the power of data and business analytics in your decision-making. We're not just about crunching numbers; we're about uncovering stories hidden in your data, enhancing them with a sprinkle of open data magic, and our deep-rooted understanding of the transport and logistics world.
 
 With our commitment to automation and the latest open-source technologies, you're always on the cutting edge, enjoying the benefits of the latest methods. Whether it's the nuanced insights of stated preference surveys, the clarity of spatial data analytics, the artistry in our mapping services, or the state-of-the-practice of our econometric modelling – including the cutting-edge discrete choice and spatial analytics – we're here to elevate your strategies, planning, demand management, and policy evaluation to new heights.
 
 Let's embark on this data-driven journey together, unlocking actionable insights and charting a course towards a smarter, more informed future. Welcome aboard!
-
-## How to use
-
-1. fork the repo for this website and follow instructions on read me to get set up. [https://github.com/CrumpLab/LabJournalWebsite](https://github.com/CrumpLab/LabJournalWebsite)
-
-2. Blog/journal what you are doing in R, by editing the Journal.Rmd. See the [Journal page](https://crumplab.github.io/LabJournalWebsite/Journal.html) for an example of what to do to get started learning R.
-
-3. See the [links page](https://crumplab.github.io/LabJournalWebsite/Links.html) for lots of helpful links on learning R.
-
-4. Change everything to make it your own.
 
 
 </div>
