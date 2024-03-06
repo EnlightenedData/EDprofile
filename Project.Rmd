@@ -82,26 +82,32 @@ The worst is over for the Southwest areas but regional NSW is bearing the load..
 # Values of Road Safety 
 *2017 Dec to 2024 Feb*
 
-*Client:* Austroads
+*Client:* Austroads.
+
 *Methodology:* 
-- Data collection: Stated Preference Survey
-- Data analysis: Advanced Choice Modelling
-*Partners:* [Deloitte Access Economics](https://www.deloitte.com/au/en/services/economics.html) and [Taverner Research](https://taverner.com.au/)
+- Data collection: Stated Preference Survey.
+- Data analysis: Advanced Choice Modelling.
+
+*Partners:* [Deloitte Access Economics](https://www.deloitte.com/au/en/services/economics.html) and [Taverner Research](https://taverner.com.au/).
+
 
 ## Background
 Have you ever pondered how the worth of road safety is gauged by economists, or in other words, how they determine the value of a human life in these analyses? 
 
 The **Value of Statistical Life** (VSL) is a fascinating concept used to tackle these questions, especially when it comes to making our roads safer. Instead of putting a price tag on life itself, VSL estimates how much people are collectively willing to spend to reduce the risk of fatal accidents. For instance, if a group is ready to pay `$`50 each for a safety feature that lessens the chance of a fatal car accident by 1 in 100,000, then the VSL is pegged at `$`5 million (`$`50 x 100,000). This calculation helps in assessing whether the cost of road safety measures, like new traffic signals or stricter speed enforcement, is justified by the benefits, namely saving lives and preventing injuries. It's a way for decision-makers to prioritise safey measures and make informed choices, ensuring that investments in safety deliver the most *bang for the buck* in protecting our communities.
 
-How could modellers (i.e., the wizards of econometric data crunching, not the runway stars!) estimate the amount of money that **people are collectively willing to spend to reduce road cashes** and **the chance of involving in a certain type of road crash** such as fatal or major injury that require hospitalisation? These are the two key questions that we must address in order to estimate the VSL. 
+How could modellers estimate the amount of money that **people are collectively willing to spend to reduce road cashes** and **the chance of involving in a certain type of road crash** such as fatal or major injury that requires hospitalisation? Economists terms these concepts as a **Willingness To Pay** (WTP) value and a **crash probability**. These are the two vital inputs for the estimation of the VSL. 
 
-What do we need? Two things, really. High quality data and good behavioural models. 
+What do we need to do the get these values? Two things, really. High quality data and good behavioural models. 
 
-## Collecting high quality data 
 
-## Developing behaviorual models
+## Collecting data 
 
-## Obtaining the Value of Statistical Life (VSL)
+
+## Developing behavioural models
+
+
+## Estimating the VSL
 
 
 
@@ -109,9 +115,11 @@ What do we need? Two things, really. High quality data and good behavioural mode
 *2023-05-20*
 
 *Client:* Sydney Metro
+
 *Methodology:* 
 - Data collection: Stated Preference Survey
-- Data analysis: Best_Worst Choice Modelling
+- Data analysis: Best-Worst Choice Modelling
+
 *Partners:* [Deloitte Access Economics](https://www.deloitte.com/au/en/services/economics.html) and [Taverner Research](https://taverner.com.au/)
 
 ## Data collection
