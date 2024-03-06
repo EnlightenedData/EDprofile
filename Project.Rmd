@@ -17,7 +17,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 Dive into our world of data wizardry through a selection of our standout projects. Each example is a testament to how Enlightened Data's expertise in analysis and modeling can illuminate the path to strategic decisions and impactful solutions.
 
 
-# Evidence-Based Policy: Navigating COVID-19 with Data Analytics and Visualisation
+# Navigating COVID-19 with Data Analytics
 
 2021-08-29 Last compiled: `r Sys.Date()`
 
