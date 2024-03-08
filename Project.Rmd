@@ -1,13 +1,15 @@
 ---
 title: "Projects"
 output:
+  pdf_document:
+    toc: true
+    toc_depth: '2'
   html_document:
     toc: true
     toc_float: true
     collapsed: false
     number_sections: false
     toc_depth: 2
-    #code_folding: hide
 ---
 
 ```{r setup, include=FALSE}
@@ -74,6 +76,7 @@ The National Survey captured a large sample of respondents and provided enough v
 </div>
 
 Thus, an effort was made to use the pilot sample as much as possible. This was to bring the total sample closer to the target number. To make up for the shortfall, the 289 face-to-face interviews from the pilot phases were included and pooled with the results from Wave 1 for model development and estimation. 
+
 
 ## Collecting crash probability data
 

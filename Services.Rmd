@@ -1,0 +1,34 @@
+---
+title: "Services"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: '2'
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+
+# Business intelligence and data analytics
+
+You know your *business*, we offer our *intelligence*. Elevate your business with our cutting-edge data analytics. We dive into your data, uncover insights, and seamlessly integrate solutions into your team. Get ready to harness the power of data with ease and confidence.
+
+Power up your projects with our 'for-hire' data science team! Our experts in statistics, applied GIS, and modelling tools are ready to fuel your success. Let our engine drive your data ambitions.
+
+
+# Services we offer
+
+## Survey design
+State-of-the-art efficient survey designs that are optimised for sample size, statistical robustness, and model parameters. We optimise designs for all forms of stated preference data, including traditional choice experiments, best-worst experiments, partial and full ranking.  
+
+
+## Statistical modelling and analysis
+From trends to deep dives, our econometricians use the right tools to obtain insights for your decisions. We work with cross-sectional and time-series data and pick the most appropriate methods based on the data at hand. We've got you covered, from ordinary regression  to complex models with hybrid/latent variables discrete choice.  
