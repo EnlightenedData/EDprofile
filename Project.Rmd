@@ -75,7 +75,7 @@ The National Survey captured a large sample of respondents and provided enough v
 ![](images/data_collection_segment_quota2022-12-13.png)
 </div>
 
-Thus, an effort was made to use the pilot sample as much as possible. This was to bring the total sample closer to the target number. To make up for the shortfall, the 289 face-to-face interviews from the pilot phases were included and pooled with the results from Wave 1 for model development and estimation. 
+Thus, we try to use the pilot samples as much as possible. This brings the total sample closer to the target number. 
 
 
 ## Collecting crash probability data
