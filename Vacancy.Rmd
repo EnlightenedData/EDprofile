@@ -1,10 +1,10 @@
 ---
-title: "GIS Analyst and Cartographer"
+title: "Spatial Scientist and Cartographer"
 output: html_document
 ---
 2024-03-09 Last updated `r Sys.Date()`.
 
-We are looking for a GIS Analyst and Cartographer to join our team. We need more hands on deck to deliver high quality spatial analyses and to help guide our clients through their data and business questions.
+We are looking for a Spatial Scientist and Cartographer to join our team. We need more hands on deck to deliver high quality spatial analyses and to help guide our clients through their data and business questions.
 
 Location: Sydney, Australia
 
@@ -18,36 +18,40 @@ At Enlightened Data, we turn data into insights and insights into action. We are
 
 
 ## Role Overview
-We're on the hunt for a skilled GIS Specialist and Cartographer with a passion for data architecture and cartography. This role is perfect for someone with a keen eye for detail, a love for maps, and a knack for turning complex data sets into compelling visual stories using ArcGIS software and R program. If you have a tertiary qualification and over two years of experience in the field, we'd love to hear from you!
+We're on the hunt for a skilled GIS Specialist and Cartographer with a passion for data architecture and cartography. This role is perfect for someone with a keen eye for detail, a love for maps, and a knack for turning complex data sets into compelling visual stories using ArcGIS software and R program. If you a bachelor degree or higher qualification with over two years of experience in the field, we'd love to hear from you!
 
 
 ## Key Responsibilities
 
-Design and implement comprehensive surveys and data collection strategies.
-Develop and apply advanced statistical and choice modeling techniques.
-Conduct spatial analysis and create detailed maps using GIS technology, particularly ArcGIS.
-Visualize data in innovative and accessible ways for diverse audiences.
-Collaborate on research and consulting projects, contributing both data analysis and cartographic expertise.
-Stay abreast of the latest developments in GIS, data analysis, and visualization techniques.
+- Design and implement comprehensive surveys and data collection strategies.
+- Compiling and evaluating data, interpreting codes of practice, and writing reports concerning survey measurement, land use and tenure.
+- Develop and apply advanced statistical and choice modeling techniques.
+- Evaluating, compiling and maintaining spatial information using a range of digital and graphical source materials such as survey documents, existing maps and records, historical data, reports and statistics
+- Conduct spatial analysis and create detailed maps using GIS technology, particularly ArcGIS.
+- Visualize data in innovative and accessible ways for diverse audiences.
+- Analysing and interpreting data to design maps, graphs, plans, drawings and three-dimensional models using geographic information and related systems
+- Developing and trialling new applications for use in geographic information systems and GIS apps. 
+- Collaborate on research and consulting projects, contributing both data analysis and cartographic expertise.
+- Stay abreast of the latest developments in GIS, data analysis, and visualization techniques.
 
 
 ## Requirements
 
-Tertiary qualification in Geography, Spatial Sciences, Data Science, or a related field.
-Minimum of 2 years of professional experience in data analysis and GIS.
-Proficiency in ArcGIS software and a strong understanding of GIS principles and data architecture.
-Experience in survey design and statistical modeling.
-Excellent data visualization skills, with the ability to communicate complex information clearly.
-Strong problem-solving skills and the ability to work on multiple projects simultaneously.
-Great communication skills, both written and verbal.
+- Bachelor degree or higher qualification in Geography, Spatial Sciences, Architecture, Data Science, or a related field.
+- Minimum of 2 years of professional experience in data analysis, GIS, cartography and/or 3D modelling.
+- Proficiency in ArcGIS software and a strong understanding of GIS principles and data architecture.
+- Experience in survey design and statistical modeling.
+- Excellent data visualization skills, with the ability to communicate complex information clearly.
+- Strong problem-solving skills and the ability to work on multiple projects simultaneously.
+- Great communication skills, both written and verbal.
 
 
 ## Why Join Us?
 
-Be part of a vibrant team that values collaboration, innovation, and creativity.
-Work on a variety of projects that make a real impact.
-Continuous learning and development opportunities.
-Competitive salary and benefits.
+- Be part of a vibrant team that values collaboration, innovation, and creativity.
+- Work on a variety of projects that make a real impact.
+- Continuous learning and development opportunities.
+- Competitive salary and benefits.
 
 ## How to Apply
 
