@@ -105,9 +105,30 @@ Survey respondents were asked to provide the suburb of origin and destination of
 
 ## Developing behavioural models
 
-More to come
+When it comes to model development, there is no shortcut. It is an interactively process of testing different model specifications, validating the results, and selecting the best models based firstly on their *behavioural outputs* (elasticity, willingness to pay, marginal rate of substitution) and secondly on statistical tests such as model *goodness of fit*. Literal, hundreds of models have been estimated such that the best one can be found. While automation and programming help us make this process a bit less daunting, there is really no shortcut.  
+
+</div>
+<div class="col-lg-12">
+
+![](images/VTTS_allin_trippurpose.png)
+</div>
+
 
 ## Estimating the VSL
+```{r echo=FALSE, message= FALSE, include=FALSE}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(xtable) # load xtable
+
+vrr <- read_csv("./data/VRR.csv") %>% 
+  select(1:2,) %>% tail(5)
+```
+Once the best model has been found, we can use it to derive the economic values, which in this case, are the willingness to pay for time saving and risk reduction. 
+
+Table: Estimated Value of Statistical Life, Feb 2024
+`r vrr %>% kbl %>% kable_styling()`
+
 
 
 # Navigating COVID-19 with Data Analytics
