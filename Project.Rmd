@@ -116,18 +116,17 @@ When it comes to model development, there is no shortcut. It is an interactively
 
 ## Estimating the VSL
 ```{r echo=FALSE, message= FALSE, include=FALSE}
-library(tidyverse)
-library(knitr)
-library(kableExtra)
-library(xtable) # load xtable
-
-vrr <- read_csv("./data/VRR.csv") %>% 
-  select(1:2,) %>% tail(5)
+# library(tidyverse)
+# library(knitr)
+# # devtools::install_github("haozhu233/kableExtra")
+# 
+# library(kableExtra)
+# library(xtable) # load xtable
+# 
+# vrr <- read_csv("./data/VRR.csv") %>% 
+#   select(1:2,) %>% tail(5)
 ```
-Once the best model has been found, we can use it to derive the economic values, which in this case, are the willingness to pay for time saving and risk reduction. 
-
-Table: Estimated Value of Statistical Life, Feb 2024
-`r vrr %>% kbl %>% kable_styling()`
+Once the best model has been found, we can use it to derive the economic values, which in this case, are the willingness to pay for time saving and risk reduction. [ATAP](https://www.atap.gov.au/mode-specific-guidance/active-travel/5-estimation-of-benefits) will publish these values in due course for the estimation of benefits of transport and safety projects. 
 
 
 

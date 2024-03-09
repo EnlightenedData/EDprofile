@@ -9,6 +9,8 @@ navbar:
       href: Services.html
     - text: "Case studies"
       href: Project.html
+    - text: "Vacancy"
+      href: Vacancy.html
     - text: "Links"
       href: Links.html
 output_dir: "docs"
