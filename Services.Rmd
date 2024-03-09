@@ -1,34 +1,67 @@
 ---
-title: "Services"
+title: "Business intelligence and data analytics"
 output:
   pdf_document:
     toc: true
-    toc_depth: '2'
+    toc_depth: '1'
   html_document:
     toc: true
     toc_float: true
     collapsed: false
     number_sections: false
-    toc_depth: 2
+    toc_depth: 1
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+library(fontawesome)
+```
 
-# Business intelligence and data analytics
 
 You know your *business*, we offer our *intelligence*. Elevate your business with our cutting-edge data analytics. We dive into your data, uncover insights, and seamlessly integrate solutions into your team. Get ready to harness the power of data with ease and confidence.
 
 Power up your projects with our 'for-hire' data science team! Our experts in statistics, applied GIS, and modelling tools are ready to fuel your success. Let our engine drive your data ambitions.
 
 
-# Services we offer
-
-## Survey design
-State-of-the-art efficient survey designs that are optimised for sample size, statistical robustness, and model parameters. We optimise designs for all forms of stated preference data, including traditional choice experiments, best-worst experiments, partial and full ranking.  
+# `r fontawesome::fa("clipboard-question", fill = "green")` Survey design 
+We offer state-of-the-art efficient designs that are optimised for sample size, statistical robustness, and model parameters. We do both Revealed Preference and Stated Preference survey designs, including stated choice, best-worst experiments, partial ranking, and full ranking experiments. We help you  program your surveys and recruit participants. 
 
 
-## Statistical modelling and analysis
-From trends to deep dives, our econometricians use the right tools to obtain insights for your decisions. We work with cross-sectional and time-series data and pick the most appropriate methods based on the data at hand. We've got you covered, from ordinary regression  to complex models with hybrid/latent variables discrete choice.  
+# `r fontawesome::fa("chart-column", fill = "green")` Statistical modelling and analysis 
+From cross-sectional and time-series data, our econometricians use the right tools to obtain insights for your decisions. We've got you covered, from ordinary regression to advanced discrete choice models with latent variables.  
+
+
+# `r fontawesome::fa("database", fill = "black")` Spatial data processing and analysis 
+Unlock the potential of every coordinate with our expertise. We process and harness geographical information to provide you with actionable insights. Whether it's processing big geospatial data, mapping trends, analysing spatial relationships, or modeling geographic phenomena, we tailor our approach to meet your needs. 
+
+
+# `r fontawesome::fa("laptop-code", fill = "deepskyblue1")` Data visualisation and dashboard
+Transform data and modelling outputs into clarity with our services. We craft intuitive dashboards and decision-support systems, turning complex data and modelling results into visuals that do the *user interface*. Elevate your strategy with at-a-glance insights and actionable intelligence, designed to inform and inspire. See your data's story, beautifully told.
+
+
+# `r fontawesome::fa("list", fill = "coral3")` Planning and reporting tools
+Streamline your operations with our bespoke Planning and Reporting Tools. We develop tailored scripts and programs to automate your reporting, ensuring accuracy and efficiency. Elevate your planning prowess with precision and ease is our objective.
+
+
+# `r fontawesome::fa("map-location-dot", fill = "black")` Network analysis 
+From mapping customer catchments to streamlining logistics routes, we're here to assist. Our transport and logistics experts excel in crafting *Network Datasets* from Open Data and using them with top tools like ArcGIS Pro, ArcGIS Online, and R. Count on us for strategic insights that enhance efficiency and reach.
+
+
+# `r fontawesome::fa("opencart", fill = "cyan")` Auxiliary Services
+We offer a range of auxiliary services relating to data analysis and programming. We offer specialised services for  transport, freight, and land use modelling and scenario development. 
+
+
+
+```{r}
+# fa("database", fill = "black")
+# fa("map-location-dot", fill = "black")
+# fa("laptop-code", fill = "lightsteel")
+# fa("list", fill = "lightsteel")
+# fa("chart-column", fill = "green")
+```
+
+
+
