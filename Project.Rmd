@@ -77,7 +77,6 @@ The National Survey captured a large sample of respondents and provided enough v
 
 Thus, we make efforts to use the pilot samples as much as possible. This brings the total sample closer to the target number. 
 
-
 ## Collecting crash probability data
 
 The crash probability, measuring the risk of exposing to road crashes is needed to estimate the WTP for reducing the number of crashes by one, for each severity class. Five severity classifications were represented in the survey. They correspond with fatal, incapacitating, major, minor injury and property damage only. Comparing to the classifications used by Australian jurisdictions, the study introduced the incapacitating injury which was considered necessary because the range of severities for hospitalised injuries is very large, ranging from an overnight stay to life-long incapacity.
@@ -88,11 +87,11 @@ For a given crash severity, the **Value of Risk Reduction** (VRR) is obtained by
 
 Transport authorities from various states and territories provided AADT data, which was standardised and indexed by year. Transport authorities in Australia estimate the AADT using traffic count data obtained from counters placed at various points/stations across the road networks. The location of these counters, and hence data coverage of the AADT, is shown in the Figure below. 
 
-<!-- </div> -->
-<!-- <div class="col-lg-12"> -->
+</div>
+<div class="col-lg-12">
 
-<!-- ![](images/aadt_map_small.png) -->
-<!-- </div> -->
+![](images/aadt_map_small.png)
+</div>
 
 Survey respondents were asked to provide the suburb of origin and destination of their trips, allowing for an optimal route (shortest time) to be determined through Google Maps. There were 3,885 unique routes identified for all origin-destination pairs, across all surveyed people, excluding intra-zonal trips. The reported trips span a wide geographical area of Australia and spread between urban and regional areas. AADTs for segments along the route for each trip were estimated for all identified routes across the entire survey sample. Since the AADT varies over the length of the route for each trip, the distance-weighted average was taken after snapping the traffic count data to each route and split it up to segments. The Figure below shows an example route between Bankstown and Mount Druitt in Sydney which went through a few traffic counters that provide the AADT data. 
 
@@ -101,7 +100,6 @@ Survey respondents were asked to provide the suburb of origin and destination of
 
 ![](images/snap_traffic_count2route_with_osm.png)
 </div>
-
 
 ## Developing behavioural models
 
@@ -128,10 +126,6 @@ When it comes to model development, there is no shortcut. It is an interactively
 ```
 Once the best model has been found, we can use it to derive the economic values, which in this case, are the willingness to pay for time saving and risk reduction. [ATAP](https://www.atap.gov.au/mode-specific-guidance/active-travel/5-estimation-of-benefits) will publish these values in due course for the estimation of benefits of transport and safety projects. 
 
-
-
-
-
 # Valuing Urban Realm
 *2023-05-20*
 
@@ -144,8 +138,45 @@ Once the best model has been found, we can use it to derive the economic values,
 
 *Partners:* [Deloitte Access Economics](https://www.deloitte.com/au/en/services/economics.html) and [Taverner Research](https://taverner.com.au/)
 
+## Objectives
+The amenity benefits from improved urban realm in station precincts are increasingly being recognised as a critical part of a transport project’s development and are receiving more focus from project teams. However, the approaches to value and incorporate these considerations into project option design and business cases are not appropriate for the modern-day Australian context.
+
+To address these limitations, Sydney Metro engaged Deloitte Access Economics and Englightened Data to develop contemporary WTP values for amenity benefits from improved public realm attributes in station precincts. The WTP values were to be derived in units that were more appropriate for their intended purpose such as on a per householder or per trip basis
+
 ## Data collection
+We use SP surveys to understand how people might behave in different environments of a station precinct. In these experiments, respondents are asked to choose between different options that have both desirable and undesirable characteristics. We design a Best-Worst experiment based on the review of similar studies and input from the clients.
+
+We work with Taverner who recruited and conducted face2face survey across 10 stations in Sydney. The interview locations and repsondents' are shown in the Figure below. These locations were selected to cover the geography of greater Sydney as well different types of station users such as residents, visitors and non-rail users. 
+
+</div>
+<div class="col-lg-12">
+
+![](images/placemaking_respondents.png)
+</div>
+
 
 ## Analysis method
 
+### Best-Worst model
+Numerous models were tested and estimated. The best model, identified via log-likelihood ratio tests, took the form of a Best-Worst Generalised Mixed Logit model type II, also known
+as a hybrid model of scaled MNL and mixed logit. With a sample size of 400+ respondents, the Best-Worst survey and modelling technique helps us double the number of observations, which in turn deliver more reliable parameters and hence WTP values.
+
+
+### Catchment analysis
+Once the WTP were estimated, we need to apply the value to the case of Sydney. To this end, a catchment analysis is deployed to estimate monthly numbers of train trips per visitor and per resident, respectively. An example is shown in the Figure below.   
+</div>
+<div class="col-lg-12">
+
+![](images/TrainStationCatchment.png)
+</div>
+
 ## Outcomes
+For application of these WTP values in business cases and economic appraisal, it is necessary to convert the WTP estimates delivered by the best model to the value per use (i.e., $/train trip). Catchment analyses were conducted, using four alternative catchments of 500m, 800m, 1000m, 1200m walking distance from each of the 10 interview locations. The resulting catchments were then intersected with the Sydney HTS data to estimate the average train trips per household per month. The 500m catchment results in the highest average number of monthly train trips per household (31.72). The average number of monthly train trips per household appears to be stable at around 27 trips/household/month for catchments between 800m and 1200m. 
+Using this average, we calculate the average WTP per use for rail users. To estimate annual non-use value in business cases, we can just multiply the \$/household/month with 12 months and the total number of non-rail households residing in the station precinct (e.g., 1km). 
+</div>
+<div class="col-lg-12">
+
+![](images/value_urban_realm.png)
+</div>
+
+For more information, please see our paper published in [Australasian Transport Research Forum (ATRF)](https://australasiantransportresearchforum.org.au/measuring-amenity-benefits-of-public-realm-in-railway-station-precincts/) 
