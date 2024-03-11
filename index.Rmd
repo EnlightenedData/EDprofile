@@ -19,7 +19,7 @@ output: html_document
 
 # About us
 
-Welcome to **Enlightened Data**, your friendly SME data partner right here in Sydney! Our journey began in 2018, guided by the visionary Dr. Chinh Ho, whose expertise in the transport and logistics field is nothing short of remarkable. Here at **Enlightened Data**, we're all about turning numbers into narratives. Whether you're steering a business or shaping government decisions, our data visualization and analytics services are designed to illuminate the path ahead.
+Welcome to **Enlightened Data**, your friendly SME data partner right here in Sydney! Our journey began in 2018, guided by the visionary Dr. Chinh Ho, whose expertise in the transport and logistics field is nothing short of remarkable. Here at **Enlightened Data**, we're all about turning numbers into narratives. Whether you're steering a business or shaping government decisions, our data visualisation and analytics services are designed to illuminate the path ahead.
 
 Our passion? Helping you connect with your customers on a deeper level and crafting strategies that truly leverage the power of data and business analytics in your decision-making. We're not just about crunching numbers; we're about uncovering stories hidden in your data, enhancing them with a sprinkle of open data magic, and our deep-rooted understanding of the transport and logistics world.
 

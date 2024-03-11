@@ -4,7 +4,7 @@ output: html_document
 ---
 2024-03-09 Last updated `r Sys.Date()`.
 
-We are looking for a Spatial Scientist and Cartographer to join our team. We need more hands on deck to deliver high quality spatial analyses and to help guide our clients through their data and business questions.
+We are looking for a Spatial Scientist and Cartographer to join our team. We need more hands on deck to deliver high-quality spatial analyses and to help guide our clients through their data and business questions.
 
 Location: Sydney, Australia
 
@@ -13,48 +13,39 @@ Type: Full-Time
 Remuneration: \$54,000 - \$76,000
 
 ## About Us
-
-At Enlightened Data, we turn data into insights and insights into action. We are a dynamic team of data experts committed to enlightening data for informed decision-making. Our expertise spans survey design, statistical modeling, spatial analysis, graphical designs and beyond. We collaborate on exciting projects with a variety of partners, from industry leaders to government bodies.
-
+At Enlightened Data, we turn data into insights and insights into action. We are a dynamic team of data experts committed to enlightening data for informed decision-making. Our expertise spans survey design, statistical modeling, spatial analysis, graphical designs, and beyond. We collaborate on exciting projects with a variety of partners, from industry leaders to government bodies.
 
 ## Role Overview
-We're on the hunt for a skilled GIS Specialist and Cartographer with a passion for data architecture and cartography. This role is perfect for someone with a keen eye for detail, a love for maps, and a knack for turning complex data sets into compelling visual stories using ArcGIS software and R program. If you a bachelor degree or higher qualification with over two years of experience in the field, we'd love to hear from you!
-
+We're on the hunt for a skilled GIS Specialist and Cartographer with a passion for data architecture and cartography. This role is perfect for someone with a keen eye for detail, a love for maps, and a knack for turning complex datasets into compelling visual stories using ArcGIS software and R programming. If you have a bachelor's degree or higher qualification with over two years of experience in the field, we'd love to hear from you!
 
 ## Key Responsibilities
-
 - Design and implement comprehensive surveys and data collection strategies.
-- Compiling and evaluating data, interpreting codes of practice, and writing reports concerning survey measurement, land use and tenure.
+- Compile and evaluate data, interpret codes of practice, and write reports concerning survey measurement, land use, and tenure.
 - Develop and apply advanced statistical and choice modeling techniques.
-- Evaluating, compiling and maintaining spatial information using a range of digital and graphical source materials such as survey documents, existing maps and records, historical data, reports and statistics
+- Evaluate, compile, and maintain spatial information using a range of digital and graphical source materials such as survey documents, existing maps and records, historical data, reports, and statistics.
 - Conduct spatial analysis and create detailed maps using GIS technology, particularly ArcGIS.
-- Visualize data in innovative and accessible ways for diverse audiences.
-- Analysing and interpreting data to design maps, graphs, plans, drawings and three-dimensional models using geographic information and related systems
-- Developing and trialling new applications for use in geographic information systems and GIS apps. 
+- Visualise data in innovative and accessible ways for diverse audiences.
+- Analyse and interpret data to design maps, graphs, plans, drawings, and three-dimensional models using geographic information and related systems.
+- Develop and trial new applications for use in geographic information systems and GIS apps.
 - Collaborate on research and consulting projects, contributing both data analysis and cartographic expertise.
-- Stay abreast of the latest developments in GIS, data analysis, and visualization techniques.
-
+- Stay abreast of the latest developments in GIS, data analysis, and visualisation techniques.
 
 ## Requirements
-
-- Bachelor degree or higher qualification in Geography, Spatial Sciences, Architecture, Data Science, or a related field.
-- Minimum of 2 years of professional experience in data analysis, GIS, cartography and/or 3D modelling.
+- Bachelor's degree or higher qualification in Geography, Spatial Sciences, Architecture, Data Science, or a related field.
+- A minimum of 2 years of professional experience in data analysis, GIS, cartography, and/or 3D modeling.
 - Proficiency in ArcGIS software and a strong understanding of GIS principles and data architecture.
 - Experience in survey design and statistical modeling.
 - Excellent data visualization skills, with the ability to communicate complex information clearly.
 - Strong problem-solving skills and the ability to work on multiple projects simultaneously.
 - Great communication skills, both written and verbal.
 
-
 ## Why Join Us?
-
 - Be part of a vibrant team that values collaboration, innovation, and creativity.
 - Work on a variety of projects that make a real impact.
 - Continuous learning and development opportunities.
 - Competitive salary and benefits.
 
 ## How to Apply
-
-Please send your resume, a cover letter explaining why you're the perfect fit for this role, and any relevant work samples to enlightened.data@gmail.com. We're looking forward to getting to know you and exploring how your skills and passions align with our mission at Enlightened ata.
+Please send your resume, a cover letter explaining why you're the perfect fit for this role, and any relevant work samples to enlightened.data@gmail.com. We're looking forward to getting to know you and exploring how your skills and passions align with our mission at Enlightened Data.
 
 Enlightened Data is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.
