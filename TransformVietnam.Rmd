@@ -1,0 +1,32 @@
+---
+title: "TransformVietnam"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: '2'
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+Apart from providing commercial services, we at **Enlightened Data** also provide free service to the community. On this page, we list a couple of projects that contribute to the community at large for the better 
+
+# GTFS data for HCMC 
+
+*2025-07-08* Last compiled: `r Sys.Date()`
+
+*Client:* Community at large
+
+*Methodology:* 
+
+- Data collection: web-scraping and advanced GIS routing.
+- Data validation: GTFS API.
+
+## Background

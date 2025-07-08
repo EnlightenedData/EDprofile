@@ -13,4 +13,6 @@ navbar:
       href: Vacancy.html
     - text: "Links"
       href: Links.html
+    - text: "TransformVietnam"
+      href: TransformVietnam.html
 output_dir: "docs"
