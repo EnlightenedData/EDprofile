@@ -1,5 +1,5 @@
 ---
-title: "TransformVietnam"
+title: "Transform Vietnam"
 output:
   pdf_document:
     toc: true
@@ -30,3 +30,8 @@ Apart from providing commercial services, we at **Enlightened Data** also provid
 - Data validation: GTFS API.
 
 ## Background
+
+[Click here to download stops.txt](https://github.com/EnlightenedData/EDprofile/tree/master/data/feed_info.txt){download="feed_info.txt"}
+
+<a href="data/feed_info.txt" download>Download File</a>
+
