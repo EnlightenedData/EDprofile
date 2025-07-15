@@ -24,7 +24,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 Apart from providing commercial services, we at **Enlightened Data** proudly contribute free services to the community. Below, we share one of our latest effort — a project that not only builds data, but also builds bridges for the betterment of Vietnam.
 
 
-# 🚍 GTFS Data for Ho Chi Minh City (HCMC)
+# GTFS Data for Ho Chi Minh City (HCMC)
 
 *Client:* Community at large
 
@@ -34,7 +34,7 @@ Apart from providing commercial services, we at **Enlightened Data** proudly con
 - **Data processing:** custom code and scripts
 - **Data validation:** using GTFS standards and API checks
 
-## 🌉 Background
+## Background
 
 Twenty years ago, I was a young civil engineer and lecturer at Vietnam National University, HCMC University of Technology leading students to the Mekong Delta to **build concrete bridges for poor communities**. We ate simple meals, slept on the ground, bathed in rivers, and drank homemade rice wine — just to help children cross monkey bridges safely to reach school.
 
@@ -42,7 +42,7 @@ Twenty years later, I no longer live or work in Vietnam — but I still build br
 
 Did you know?
 
-> Apps like Google Maps, BusMap, Transit App, etc. all need GTFS data to work.
+Apps like Google Maps, BusMap, Transit App, etc. all need GTFS data to work.
 
 But while Google and BusMap have some data, **our own city departments don’t**.
 
@@ -60,19 +60,19 @@ Now, I’ve created the first **draft GTFS dataset for HCMC**. [Click here to do
 
 With GTFS, you can:
 
-✅ **Map bus and metro networks** with one click (or a few lines of code)  
-✅ **Integrate data** into navigation apps, TOD (Transit-Oriented Development) research, transport models, social equity analysis  
-✅ **Advance Vietnam’s digital transformation** in urban and transport systems
+**Map bus and metro networks** with one click (or a few lines of code)  
+**Integrate data** into navigation apps, TOD (Transit-Oriented Development) research, transport models, social equity analysis  
+**Advance Vietnam’s digital transformation** in urban and transport systems
 
 As our ancestors said:
 
-> *“Without flour, you can’t make paste.”*
+**“Without flour, you can’t make paste.”** *Vietnamese proverb*
 
 In the digital age, **data is the flour**. With data, we build bridges. With bridges, we create hope.
 
----
 
-## 🌟 A Call to Vietnam’s Government, Researchers, Developers, and Data Owners
+
+## A Call to Vietnam’s Government, Researchers, Developers, and Data Owners
 
 We at **Enlightened Data** invite you — **government agencies, researchers, urban planners, developers, students, and data owners** — to **join the Open Data movement**.
 
@@ -88,9 +88,7 @@ The bridge is built. Whether we cross it — **depends on all of us**.
 
 Let’s **open the doors to data** and **unlock the future of Vietnam**.
 
-👉 *The GTFS bundle for HCMC is made public via*  [GitHub](https://github.com/EnlightenedData/EDprofile/tree/master/data). 
+*The GTFS bundle for HCMC is published at *  [EnlightenedDataGitHub](https://github.com/EnlightenedData/EDprofile/tree/master/data). 
 
----
+*“Open data is not just about transparency. It’s about empowering people, driving innovation, and building a better world.”*
 
-> *“Open data is not just about transparency. It’s about empowering people, driving innovation, and building a better world.”*
-<!-- <a href="data/feed_info.txt" download>Download File</a> -->

@@ -1,0 +1,210 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Transform Vietnam},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Transform Vietnam}
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\hypertarget{transform-vietnam-with-open-data-revolution}{%
+\section{Transform Vietnam with Open Data
+Revolution}\label{transform-vietnam-with-open-data-revolution}}
+
+\emph{by Dr.~Chinh Ho at Enlightened Data Pty. Ltd.} \emph{Date shared:}
+2025-07-15. Last compiled: 2025-07-15
+
+Apart from providing commercial services, we at \textbf{Enlightened
+Data} proudly contribute free services to the community. Below, we share
+one of our latest effort --- a project that not only builds data, but
+also builds bridges for the betterment of Vietnam.
+
+\hypertarget{gtfs-data-for-ho-chi-minh-city-hcmc}{%
+\section{🚍 GTFS Data for Ho Chi Minh City
+(HCMC)}\label{gtfs-data-for-ho-chi-minh-city-hcmc}}
+
+\emph{Client:} Community at large
+
+\emph{Methodology:}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Data collection:} web scraping and advanced GIS routing
+\item
+  \textbf{Data processing:} custom code and scripts
+\item
+  \textbf{Data validation:} using GTFS standards and API checks
+\end{itemize}
+
+\hypertarget{background}{%
+\subsection{🌉 Background}\label{background}}
+
+Twenty years ago, I was a young civil engineer and lecturer at Vietnam
+National University, HCMC University of Technology leading students to
+the Mekong Delta to \textbf{build concrete bridges for poor
+communities}. We ate simple meals, slept on the ground, bathed in
+rivers, and drank homemade rice wine --- just to help children cross
+monkey bridges safely to reach school.
+
+Twenty years later, I no longer live or work in Vietnam --- but I still
+build bridges. Not in Tra Vinh, but in the heart of Ho Chi Minh City.
+Not with concrete and steel, but with \textbf{code and data}. This time,
+I built a \textbf{GTFS Bridge} --- Generic Transit Feed Specification
+--- a digital foundation to help HCMC step into the future of smart
+mobility.
+
+Did you know?
+
+\begin{quote}
+Apps like Google Maps, BusMap, Transit App, etc. all need GTFS data to
+work.
+\end{quote}
+
+But while Google and BusMap have some data, \textbf{our own city
+departments don't}.
+
+When I asked former students (now working at the Department of
+Transport), colleagues, even HCMGIS, everyone shook their heads:
+\emph{``We don't have the GIS data needed for GTFS.''}
+
+So I rolled up my sleeves and did it myself.
+
+I wrote the scripts. I scraped the data from public websites. I
+processed everything alone.
+
+It took \textbf{almost a month}, the same time it took to build those
+concrete bridges decades ago. But this time, there were no civil
+engineering students, no local officials, no community volunteers.
+
+Meanwhile, in Ha Noi, the World Bank funded GTFS development in a three
+years (and it's still incomplete). But HCMC --- proudly to be Vietnam's
+economic powerhouse, innovation hub, and free trade zone --- still had
+nothing.
+
+Now, I've created the first \textbf{draft GTFS dataset for HCMC}.
+\href{https://github.com/EnlightenedData/EDprofile/tree/master/data/HCMC_PTnetwork.gdb.zip}{Click
+here to download a zipped Geodatabase that contain bus and metro stops
+\& lines in HCMC}
+
+With GTFS, you can:
+
+✅ \textbf{Map bus and metro networks} with one click (or a few lines of
+code)\\
+✅ \textbf{Integrate data} into navigation apps, TOD (Transit-Oriented
+Development) research, transport models, social equity analysis\\
+✅ \textbf{Advance Vietnam's digital transformation} in urban and
+transport systems
+
+As our ancestors said:
+
+\begin{quote}
+\emph{``Without flour, you can't make paste.''} Vietnamese proverb
+\end{quote}
+
+In the digital age, \textbf{data is the flour}. With data, we build
+bridges. With bridges, we create hope.
+
+\hypertarget{a-call-to-vietnams-government-researchers-developers-and-data-owners}{%
+\subsection{🌟 A Call to Vietnam's Government, Researchers, Developers,
+and Data
+Owners}\label{a-call-to-vietnams-government-researchers-developers-and-data-owners}}
+
+We at \textbf{Enlightened Data} invite you --- \textbf{government
+agencies, researchers, urban planners, developers, students, and data
+owners} --- to \textbf{join the Open Data movement}.
+
+Share your datasets. Use Open Standards. Contribute to Vietnam's
+\textbf{Open Data Portal}.
+
+Why?
+
+Because \textbf{open data powers innovation}. It helps us solve
+real-world problems, from traffic congestion and air pollution to public
+service access and urban equity.
+
+If one volunteer can build a GTFS bridge alone, imagine what \textbf{we
+can build together}.
+
+The bridge is built. Whether we cross it --- \textbf{depends on all of
+us}.
+
+Let's \textbf{open the doors to data} and \textbf{unlock the future of
+Vietnam}.
+
+👉 \emph{The GTFS bundle for HCMC is made public via}
+\href{https://github.com/EnlightenedData/EDprofile/tree/master/data}{GitHub}.
+
+\emph{``Open data is not just about transparency. It's about empowering
+people, driving innovation, and building a better world.''}
+
+\end{document}

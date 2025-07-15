@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Projects</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Enlightened Data</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="Services.html">Services</a>
+</li>
+<li>
+  <a href="Project.html">Case studies</a>
+</li>
+<li>
+  <a href="Vacancy.html">Vacancy</a>
+</li>
+<li>
+  <a href="Links.html">Links</a>
+</li>
+<li>
+  <a href="TransformVietnam.html">TransformVietnam</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Projects</h1>
+
+</div>
+
+
+<p>Dive into our world of data wizardry through a selection of our
+standout projects. Each example is a testament to how Enlightened Data’s
+expertise in analysis and modeling can illuminate the path to strategic
+decisions and impactful solutions.</p>
+<div id="values-of-road-safety" class="section level1">
+<h1>Values of Road Safety</h1>
+<p><em>2017-11-01 to 2024-02-29</em> Last compiled: 2025-07-15</p>
+<p><em>Client:</em> Austroads.</p>
+<p><em>Methodology:</em></p>
+<ul>
+<li>Data collection: Stated Preference Survey.</li>
+<li>Data analysis: Advanced Choice Modelling.</li>
+</ul>
+<p><em>Partners:</em> <a
+href="https://www.deloitte.com/au/en/services/economics.html">Deloitte
+Access Economics</a> and <a href="https://taverner.com.au/">Taverner
+Research</a>.</p>
+<div id="background" class="section level2">
+<h2>Background</h2>
+<p>Have you ever pondered how the worth of road safety is gauged by
+economists, or in other words, how they determine the value of a human
+life in these analyses?</p>
+<p>The <strong>Value of Statistical Life</strong> (VSL) is a fascinating
+concept used to tackle these questions, especially when it comes to
+making our roads safer. Instead of putting a price tag on life itself,
+VSL estimates how much people are collectively willing to spend to
+reduce the risk of fatal accidents. For instance, if a group is ready to
+pay $50 each for a safety feature that lessens the chance of a fatal car
+accident by 1 in 100,000, then the VSL is pegged at $5 million ($50 x
+100,000). This calculation helps in assessing whether the cost of road
+safety measures, like new traffic signals or stricter speed enforcement,
+is justified by the benefits, namely saving lives and preventing
+injuries. It’s a way for decision-makers to prioritise safety measures
+and make informed choices, ensuring that investments in safety deliver
+the most <em>bang for the buck</em> in protecting our communities.</p>
+<p>How can modelers estimate the amount of money that <strong>people are
+collectively willing to spend to reduce road crashes</strong> and
+<strong>the likelihood of being involved in a certain type of road
+crash</strong>, such as one that is fatal or results in major injury
+requiring hospitalization? Economists refer to these concepts as a
+<strong>Willingness To Pay</strong> (WTP) value and a <strong>crash
+probability</strong>, respectively. These are two crucial inputs for
+estimating the VSL.</p>
+<p>What do we need to estimate these values? Essentially two things:
+high-quality data and robust behavioral models.</p>
+</div>
+<div id="collecting-data" class="section level2">
+<h2>Collecting data</h2>
+<p>Collecting high-quality data is time-consuming, which is why this
+project has taken more than five years from its inception in 2017 to its
+completion in 2024. Clearly, the COVID-19 pandemic severely delayed and
+disrupted the study. Despite this, multiple waves of data collection,
+from pilots in selected states to national studies, took a considerable
+amount of time. Various survey administration methods, including online
+self-guided, online-guided, and face-to-face interviews, were tested to
+select the most appropriate method that delivers high-quality data
+within the budget and timeline.</p>
+<div id="survey-administration-methods" class="section level3">
+<h3>Survey administration methods</h3>
+<p>This study marks the first attempt to use a WTP (Willingness to Pay)
+approach to simultaneously estimate national values for time,
+reliability, and safety in road travel. As these values are being
+determined for the first time, significant time and effort were invested
+in the design, testing, and review phases before launching a
+comprehensive national survey.</p>
+<p>The survey comprises three phases: design, pilots, and national
+survey (Wave 1 and Wave 2), with cognitive interviews and feedback
+between phases to improve the survey instruments. Overall, nothing beats
+face-to-face interviews, which had to be replaced with online-guided
+interviews in Wave 2 of the national survey due to <em>physical
+distancing</em> measures imposed by COVID-19.</p>
+</div>
+<div id="the-stated-choice-experiment" class="section level3">
+<h3>The Stated Choice Experiment</h3>
+<p>At the core of this national WTP (Willingness to Pay) study is an SP
+(Stated Preference) experiment that presents participants with five sets
+of route choices, each comprising two options. These options vary in
+terms of safety, cost, and travel time, with travel time presented as a
+range to account for different reliabilities (refer to the figure
+below).</p>
+</div>
+<div class="col-lg-12">
+<p><img src="images/WTP_SP.png" /></p>
+</div>
+<p>The attribute levels (cost, time, reliability, and safety) of the
+choice experiments were chosen using <em>Bayesian efficient
+designs</em>. These designs optimise the attribute levels based on the
+trip details reported by each respondent from the background questions
+preceding the SP experiment. The goal of the Bayesian efficient designs
+is to minimize the errors in the model coefficient estimates.</p>
+</div>
+<div id="survey-sampling" class="section level3">
+<h3>Survey sampling</h3>
+<p>The survey used a <strong>stratification sampling with quota</strong>
+to obtain enough samples for the requirement of separate WTP values for
+different travel purposes. Samples are proportional to the population of
+each State/Territory. Quotas were also employed for jurisdictions,
+drivers and passengers, and metropolitan and regional locations to
+ensure the survey results accurately represented nationwide
+averages.</p>
+<p>In the fieldwork, recruitment took place in both urban and regional
+settings so that travelers outside major (capital) cities would also be
+included. The split of the samples (i.e., respondents) between urban
+vs. rural locations was matched with corresponding statistics derived
+from the <a
+href="https://www.abs.gov.au/articles/australias-journey-work">ABS 2016
+Census Journey to Work (JTW)</a> to obtain an expansion factor (i.e.,
+weight) for each observation. In the absence of reliable statistics on
+the urban/rural split for business and non-work trip purposes, the
+matching process used statistics from the Census JTW data for all trip
+purposes. The WTP values estimated from the model were then aggregated
+using the expansion factors to give weighted average values that could
+be used consistently for all travellers in all parts of Australia.</p>
+</div>
+<div id="final-sample-size" class="section level3">
+<h3>Final sample size</h3>
+<p>The National Survey captured a large sample of respondents, providing
+sufficient variation to ensure reliable and statistically significant
+results. However, the sample size for the National Survey was
+approximately 650 participants fewer than initially planned, due to
+challenges in finding certain segments, such as business travel and
+passenger trips in regional areas, post-COVID-19. The figure below
+illustrates the shortfall of the final sample compared to the targeted
+number.</p>
+</div>
+<div class="col-lg-12">
+<p><img src="images/data_collection_segment_quota2022-12-13.png" /></p>
+</div>
+<p>Therefore, we endeavor to utilize the pilot samples as much as
+possible, bringing the total number of samples closer to the target
+figure.</p>
+</div>
+</div>
+<div id="collecting-crash-probability-data" class="section level2">
+<h2>Collecting crash probability data</h2>
+<p>The crash probability, which measures the risk of being involved in
+road crashes, is necessary for estimating the WTP (Willingness to Pay)
+to reduce the number of crashes by one for each severity class. The
+survey included five severity classifications: fatal, incapacitating,
+major, minor injury, and property damage only. Compared to
+classifications used by Australian jurisdictions, this study introduced
+the category of incapacitating injury, deemed necessary to account for
+the broad range of hospitalization severities, from overnight stays to
+lifelong incapacities.</p>
+<p>The survey instrument displayed the number of crashes in each
+severity category along the route of the trip over a year. If the
+modeling were conducted using only SP (Stated Preference) data, the
+derived WTP value would represent the WTP per trip for reducing the
+number of crashes in a specific severity category by one per year. This
+concept is known as the <strong>subjective value of crash risk
+reduction</strong> (SVCR), which essentially measures how much
+<strong>people are collectively willing to spend to reduce road
+crashes</strong>.</p>
+<p>For each crash severity, the <strong>Value of Risk Reduction
+(VRR)</strong> (or <strong>VSL</strong> if it is a fatal risk) is
+calculated by multiplying the SVCR by the level of crash exposure
+(number of opportunities for a crash). The exposure measure for each
+trip per year was determined as the distance-weighted <strong>average
+annual daily traffic</strong> (AADT) level multiplied by 365 (number of
+days in a year) for the trip’s route. Since crash exposure varies
+between trips, this conversion was performed at the individual trip
+level. The number of crashes/year shown in the SP experiment was divided
+by the distance-weighted AADT multiplied by 365 for the trip to convert
+it into the <strong>annual probability of a crash</strong> occurring.
+The WTP value estimated from data expressed in crash probabilities then
+becomes the required VRR, with no further conversion being needed.</p>
+<p>Transport authorities from various states and territories supplied
+AADT data, which was standardised and indexed by year. In Australia,
+transport authorities calculate the AADT using traffic count data from
+counters placed at various locations across the road networks. The
+placement of these counters, and consequently the data coverage of the
+AADT, is illustrated in the figure below.</p>
+</div>
+<div class="col-lg-12">
+<p><img src="images/aadt_map_small.png" /></p>
+</div>
+<p>It is worth noting that two alternative methods exist for estimating
+the VRR or VSL (<strong>$/crash</strong>) using the WTP values derived
+from the choice model. The first method, adopted by <a
+href="https://ses.library.usyd.edu.au/bitstream/2123/19286/1/itls_wp_09_03.pdf">Hensher
+et al. (2009)</a> in the RTA pilot study (whose WTP estimates have been
+used in ATAP guidelines), first estimated the SVCR (or WTP
+(<strong>$/year</strong>) to reduce 1 road crash of type <em>i</em> per
+year). The SVCR values were then converted to VRR or VSL using an
+<em>average crash exposure</em> estimated from data for <em>the entire
+road network</em> (in the case of the RTA report, it is the NSW road
+network). The second method, adopted by <a
+href="https://www.sciencedirect.com/science/article/pii/S0001457501000823">Rizzi
+and Ortuzar (2003)</a>, converted the numbers of crashes per annum
+(which differ <em>systematically</em> across respondents according to
+the SP designs) into crash probabilities by dividing the annual crash
+numbers presented in the SP experiments by the traffic volume along each
+route prior to estimating the choice models. Choice models that use
+crash probability deliver the VRR or VSL without further conversion
+needed. The first approach is easier, as it requires only the
+jurisdiction-wide average crash exposure; however, this approach may not
+be satisfactory for a large country like Australia where trips vary
+markedly by distance, traffic exposure level, and condition of roads.
+Upon consulting with Prof. Ortuzar and independent reviewers from Leeds
+University, the Austroads Project Managers decided to adopt the second
+method for estimating the VRR. To what extent the VRR / VSL derived by
+these alternative methods differ remains a question that needs to be
+investigated further.</p>
+</div>
+<div id="estimating-risk-exposure-for-each-trip" class="section level2">
+<h2>Estimating risk exposure for each trip</h2>
+<p>Once traffic volume data have been obtained, we need to map this to
+each trip/route so that crash probabilities can be computed. This is a
+massive task because we have thousands of routes and tens of thousands
+of traffic counters across Australia. A programming method is needed
+because a manual approach would take a very long time (first by
+digitizing the route, then by mapping the AADT data to each route, and
+finally by calculating the distance-weighted AADT for each route).</p>
+<p>Survey respondents were asked to provide the suburbs of origin and
+destination for their trips, enabling the determination of an optimal
+route (shortest time) via Google Maps. A total of 3,885 unique routes
+were identified for all origin-destination pairs among the surveyed
+individuals, excluding intra-zonal trips. The reported trips covered a
+broad geographical area of Australia, ranging from urban to regional
+locations. AADTs for the route segments of each trip were estimated for
+all identified routes observed in the entire survey sample. Given that
+the AADT varies along each trip’s route, a distance-weighted average was
+calculated after mapping the traffic count data to each route and
+dividing it into segments. The figure below illustrates the developed
+method, using an example route from Bankstown to Mount Druitt in Sydney,
+which passed through several traffic counters (represented by dots) that
+provide AADT data (shaded in different colours).</p>
+</div>
+<div class="col-lg-12">
+<p><img src="images/snap_traffic_count2route_with_osm.png" /></p>
+</div>
+</div>
+<div id="developing-behavioural-models" class="section level2">
+<h2>Developing behavioural models</h2>
+<p>When it comes to model development, there are no shortcuts. We used
+an iterative process of testing different model specifications,
+validating the results, and selecting the best models based primarily on
+their <em>behavioural outputs</em> (elasticity, willingness to pay,
+marginal rate of substitution) and secondarily on statistical tests such
+as model <em>goodness of fit</em>. Literally, hundreds of models have
+been estimated to find the best one. Although automation and programming
+can make this process somewhat less daunting, there are truly no
+shortcuts.</p>
+</div>
+<div class="col-lg-12">
+<p><img src="images/VTTS_allin_trippurpose.png" /></p>
+</div>
+</div>
+<div id="estimating-the-vsl" class="section level2">
+<h2>Estimating the VSL</h2>
+<p>Once the best model has been found, we can use it to derive the
+economic values, which in this case, are the value of risk reduction or
+VSL. <a
+href="https://www.atap.gov.au/mode-specific-guidance/active-travel/5-estimation-of-benefits">ATAP</a>
+will publish these values in due course for the estimation of benefits
+of transport and safety projects.</p>
+</div>
+</div>
+<div id="valuing-urban-realm" class="section level1">
+<h1>Valuing Urban Realm</h1>
+<p><em>2023-05-20</em></p>
+<p><em>Client:</em> Sydney Metro</p>
+<p><em>Methodology:</em></p>
+<ul>
+<li>Data collection: Stated Preference Survey</li>
+<li>Data analysis: Best-Worst Choice Modelling</li>
+</ul>
+<p><em>Partners:</em> <a
+href="https://www.deloitte.com/au/en/services/economics.html">Deloitte
+Access Economics</a> and <a href="https://taverner.com.au/">Taverner
+Research</a></p>
+<div id="objectives" class="section level2">
+<h2>Objectives</h2>
+<p>The amenity benefits derived from the improved urban realm in station
+precincts are increasingly recognized as a critical part of a transport
+project’s development and are receiving more focus from project teams.
+However, the approaches to valuing and incorporating these
+considerations into project option design and business cases are not
+suitable for the modern-day Australian context.</p>
+<p>To address these limitations, Sydney Metro engaged Deloitte Access
+Economics and Enlightened Data to develop contemporary WTP (Willingness
+to Pay) values for amenity benefits from improved public realm
+attributes in station precincts. The WTP values were to be derived in
+units that were more suitable for their intended purpose, such as on a
+per householder or per trip basis.</p>
+</div>
+<div id="data-collection" class="section level2">
+<h2>Data collection</h2>
+<p>We use SP (Stated Preference) surveys to understand how people might
+behave in different environments within a station precinct. In these
+experiments, respondents are asked to choose between different options
+that exhibit both desirable and undesirable characteristics. We design a
+Best-Worst experiment based on the review of similar studies and input
+from the clients.</p>
+<p>We collaborate with Taverner, who recruited and conducted
+face-to-face surveys across 10 stations in Sydney. The interview
+locations and respondents are shown in the figure below. These locations
+were chosen to encompass the geography of Greater Sydney as well as to
+include different types of station users such as residents, visitors,
+and non-rail users.</p>
+</div>
+<div class="col-lg-12">
+<p><img src="images/placemaking_respondents.png" /></p>
+</div>
+</div>
+<div id="analysis-method" class="section level2">
+<h2>Analysis method</h2>
+<div id="best-worst-model" class="section level3">
+<h3>Best-Worst model</h3>
+<p>Numerous models were tested and estimated. The best model, identified
+through log-likelihood ratio tests, took the form of a Best-Worst
+Generalized Mixed Logit model type II, also known as a hybrid model of
+scaled MNL (Multinomial Logit) and mixed logit. With a sample size of
+over 400 respondents, the Best-Worst survey and modeling technique help
+us double the number of observations, which in turn delivers more
+reliable parameters and, consequently, more accurate WTP (Willingness to
+Pay) values.</p>
+</div>
+<div id="catchment-analysis" class="section level3">
+<h3>Catchment analysis</h3>
+<p>Once the WTP values were estimated, we needed to apply these values
+to the case of Sydney. To achieve this, a catchment analysis was
+conducted to estimate the monthly number of train trips per visitor and
+per resident, respectively. An example is illustrated in the figure
+below.</p>
+</div>
+<div class="col-lg-12">
+<p><img src="images/TrainStationCatchment.png" /></p>
+</div>
+</div>
+</div>
+<div id="outcomes" class="section level2">
+<h2>Outcomes</h2>
+<p>For the application of these WTP (Willingness to Pay) values in
+business cases and economic appraisals, it is essential to convert the
+WTP estimates provided by the best model into value per use (i.e.,
+$/train trip). Catchment analyses were conducted using four alternative
+catchments of 500m, 800m, 1000m, and 1200m walking distances from each
+of the 10 interview locations. The resulting catchments were then
+overlaid with Sydney HTS (Household Travel Survey) data to estimate the
+average number of train trips per household per month. The 500m
+catchment yielded the highest average number of monthly train trips per
+household (31.72). For catchments ranging from 800m to 1200m, the
+average number of monthly train trips per household stabilized at around
+27 trips/household/month.</p>
+<p>Using this average, we calculate the average WTP per use for rail
+users. To estimate the annual non-use value in business cases, one can
+simply multiply the $/household/month by 12 months and the total number
+of non-rail households residing within the station precinct (e.g.,
+within 1km).</p>
+</div>
+<div class="col-lg-12">
+<p><img src="images/value_urban_realm.png" /></p>
+</div>
+<p>For more information, please see our paper published in <a
+href="https://australasiantransportresearchforum.org.au/measuring-amenity-benefits-of-public-realm-in-railway-station-precincts/">Australasian
+Transport Research Forum (ATRF)</a></p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
