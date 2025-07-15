@@ -16,22 +16,81 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-Apart from providing commercial services, we at **Enlightened Data** also provide free service to the community. On this page, we list a couple of projects that contribute to the community at large for the better 
 
-# GTFS data for HCMC 
+# Transform Vietnam with Open Data Revolution
+*by Dr. Chinh Ho at Enlightened Data Pty. Ltd.* 
+*Date shared:* 2025-07-15. Last compiled: `r Sys.Date()`
 
-*2025-07-08* Last compiled: `r Sys.Date()`
+Apart from providing commercial services, we at **Enlightened Data** proudly contribute free services to the community. Below, we share one of our latest effort — a project that not only builds data, but also builds bridges for the betterment of Vietnam.
+
+
+# 🚍 GTFS Data for Ho Chi Minh City (HCMC)
 
 *Client:* Community at large
 
-*Methodology:* 
+*Methodology:*
 
-- Data collection: web-scraping and advanced GIS routing.
-- Data validation: GTFS API.
+- **Data collection:** web scraping and advanced GIS routing
+- **Data processing:** custom code and scripts
+- **Data validation:** using GTFS standards and API checks
 
-## Background
+## 🌉 Background
 
-[Click here to download stops.txt](https://github.com/EnlightenedData/EDprofile/tree/master/data/feed_info.txt){download="feed_info.txt"}
+Twenty years ago, I was a young civil engineer and lecturer at Vietnam National University, HCMC University of Technology leading students to the Mekong Delta to **build concrete bridges for poor communities**. We ate simple meals, slept on the ground, bathed in rivers, and drank homemade rice wine — just to help children cross monkey bridges safely to reach school.
 
-<a href="data/feed_info.txt" download>Download File</a>
+Twenty years later, I no longer live or work in Vietnam — but I still build bridges. Not in Tra Vinh, but in the heart of Ho Chi Minh City. Not with concrete and steel, but with **code and data**. This time, I built a **GTFS Bridge** — Generic Transit Feed Specification — a digital foundation to help HCMC step into the future of smart mobility.
 
+Did you know?
+
+> Apps like Google Maps, BusMap, Transit App, etc. all need GTFS data to work.
+
+But while Google and BusMap have some data, **our own city departments don’t**.
+
+When I asked former students (now working at the Department of Transport), colleagues, even HCMGIS, everyone shook their heads: *“We don’t have the GIS data needed for GTFS.”*
+
+So I rolled up my sleeves and did it myself.
+
+I wrote the scripts. I scraped the data from public websites. I processed everything alone.
+
+It took **almost a month**, the same time it took to build those concrete bridges decades ago. But this time, there were no civil engineering students, no local officials, no community volunteers.
+
+Meanwhile, in Ha Noi, the World Bank funded GTFS development in a three years (and it’s still incomplete). But HCMC  — proudly to be Vietnam’s economic powerhouse, innovation hub, and free trade zone — still had nothing.
+
+Now, I’ve created the first **draft GTFS dataset for HCMC**. [Click here to download a zipped Geodatabase that contain bus and metro stops & lines in HCMC  ](https://github.com/EnlightenedData/EDprofile/tree/master/data/HCMC_PTnetwork.gdb.zip){download="HCMC_PTnetwork.gdb.zip"}
+
+With GTFS, you can:
+
+✅ **Map bus and metro networks** with one click (or a few lines of code)  
+✅ **Integrate data** into navigation apps, TOD (Transit-Oriented Development) research, transport models, social equity analysis  
+✅ **Advance Vietnam’s digital transformation** in urban and transport systems
+
+As our ancestors said:
+
+> *“Without flour, you can’t make paste.”*
+
+In the digital age, **data is the flour**. With data, we build bridges. With bridges, we create hope.
+
+---
+
+## 🌟 A Call to Vietnam’s Government, Researchers, Developers, and Data Owners
+
+We at **Enlightened Data** invite you — **government agencies, researchers, urban planners, developers, students, and data owners** — to **join the Open Data movement**.
+
+Share your datasets. Use Open Standards. Contribute to Vietnam’s **Open Data Portal**.
+
+Why?
+
+Because **open data powers innovation**. It helps us solve real-world problems, from traffic congestion and air pollution to public service access and urban equity.
+
+If one volunteer can build a GTFS bridge alone, imagine what **we can build together**.
+
+The bridge is built. Whether we cross it — **depends on all of us**.
+
+Let’s **open the doors to data** and **unlock the future of Vietnam**.
+
+👉 *The GTFS bundle for HCMC is made public via*  [GitHub](https://github.com/EnlightenedData/EDprofile/tree/master/data). 
+
+---
+
+> *“Open data is not just about transparency. It’s about empowering people, driving innovation, and building a better world.”*
+<!-- <a href="data/feed_info.txt" download>Download File</a> -->
