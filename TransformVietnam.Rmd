@@ -17,7 +17,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
 
-# Transform Vietnam with Open Data Revolution
+# with Open Data Revolution
 *by Dr. Chinh Ho at Enlightened Data Pty. Ltd.* 
 *Date shared:* 2025-07-15. Last compiled: `r Sys.Date()`
 
@@ -64,6 +64,12 @@ With GTFS, you can:
 **Integrate data** into navigation apps, TOD (Transit-Oriented Development) research, transport models, social equity analysis  
 **Advance Vietnam’s digital transformation** in urban and transport systems
 
+</div>
+<div class="col-lg-12">
+
+![](images/HCMC_PT_LOS.png)
+</div>
+
 As our ancestors said:
 
 **“Without flour, you can’t make paste.”** *Vietnamese proverb*
@@ -72,7 +78,7 @@ In the digital age, **data is the flour**. With data, we build bridges. With bri
 
 
 
-## A Call to Vietnam’s Government, Researchers, Developers, and Data Owners
+## A Call for Open Data
 
 We at **Enlightened Data** invite you — **government agencies, researchers, urban planners, developers, students, and data owners** — to **join the Open Data movement**.
 
